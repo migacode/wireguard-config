@@ -1,1 +1,1 @@
-Dieses Script führt durch die Installation und individuelle Konfiguration von WireGuard einschließlich der Erstellung von Desktop-Icons zum Öffnen und Schließen der VPN-Verbindung sowie Einrichtung eines entsprechenden System-Dienstes.
+Bash-Script zur geführten Installation und Konfiguration von WireGuard (Kernel-Version) einschließlich der Erstellung von Desktop-Symbolen (Startern) zum Öffnen und Schließen der VPN-Verbindung. Optional mit Einrichtung eines entsprechenden System-Dienstes.
