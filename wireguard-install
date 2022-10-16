@@ -1,8 +1,42 @@
 #!/bin/bash
 ###############################################################################
-# Installations-Script für WireGuard (Kernel-Version)
-# von Michael Gasbers
-# Stand: 15.10.2022
+#                                                                             #
+#                            WireGuard - Installer                            #
+#          ---------------------------------------------------------          #
+#             Installations-Script für WireGuard (Kernel-Version)             #
+#                                                                             #
+#                       (C)opyright bei Michael Gasbers                       #
+#                      MIGANO Professional Web Solutions                      #
+#                                                                             #
+#                             All rights reserved.                            #
+#                                                                             #
+###############################################################################
+#                                                                             #
+# DIESE SOFTWARE WIRD OHNE MÄNGELGEWÄHR UND OHNE JEGLICHE AUSDRÜCKLICHE ODER  #
+# STILLSCHWEIGENDE GARANTIE ZUR VERFÜGUNG GESTELLT, EINSCHLIESSLICH UND OHNE  #
+# EINSCHRÄNKUNG JEGLICHER GARANTIE FÜR DIE GEBRAUCHSTAUGLICHKEIT ODER EIGNUNG #
+# FÜR EINEN BESTIMMTEN ZWECK. ALLE RISIKEN IN BEZUG AUF ERGEBNISSE UND        #
+# LEISTUNG DIESER SOFTWARE WERDEN VOLLSTÄNDIG VOM BENUTZER ÜBERNOMMEN!        #
+#  *************************************************************************  #
+# THIS SOFTWARE IS PROVIDED "AS IS" WITH NO WARRANTIES WHAT SO EVER, WHETHER  #
+# EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF       #
+# USABILITY OR FITNESS FOR A PARTICULAR PURPOSE. ALL RISKS CONCERNING RESULTS #
+# AND PERFORMANCE OF THIS SOFTWARE ARE ASSUMED COMPLETELY BY THE USER!        #
+#                                                                             #
+###############################################################################
+#                                                                             #
+#  Jegliche Form der Kopie, Veränderung und kommerziellen Verbreitung dieses  #
+#  Scripts oder Teilen davon sowie des Quellcodes ist strengstens verboten!   #
+#  *************************************************************************  #
+#   Any form of copying, modification or commercial distribution of this      #
+#   script or any part thereof or it's sourcecode is strictly prohibited!     #
+#  *************************************************************************  #
+#   Für Anregungen und Fragen nehmen Sie bitte Kontakt mit uns auf über       #
+#   https://migano.de oder per E-Mail an >> kontakt@migano.de <<. Danke.      #
+#                                                                             #
+###############################################################################
+VERSION="1.00 beta"
+# Letzte Änderung: 15.10.2022
 ###############################################################################
 if [ $(id -u) -ne 0 ]; then echo " Bitte als Superuser aufrufen!"; exit 1; fi
 
