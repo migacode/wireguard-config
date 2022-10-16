@@ -1,0 +1,1 @@
+Dieses Script führt durch die Installation und individuelle Konfiguration von WireGuard einschließlich der Erstellung von Desktop-Icons zum Öffnen und Schließen der VPN-Verbindung sowie Einrichtung eines entsprechenden System-Dienstes.
