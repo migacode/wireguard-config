@@ -6,3 +6,6 @@ Zu jeder Verbindung können folgende Funktionen jeweils individuell und wahlweis
 - Erstellung von Desktop-Symbolen (Startern) zum Öffnen und Schließen der VPN-Verbindung
 - Einrichtung, Starten und Stoppen eines System-Dienstes (Service)
 - Aktivieren und Deaktivieren (Öffnen und Schließen) der Verbindung
+<hr>
+<br />
+Sämtliche Software auf diesen Seiten wird ohne Mängelgewähr und ohne jegliche ausdrückliche oder stillschweigende Garantie zur Verfügung gestellt, einschließlich und ohne Einschränkung jeglicher Garantie für die Gebrauchstauglichkeit oder Eignung für einen bestimmten Zweck. Alle Risiken in Bezug auf Ergebnisse und Leistung dieser Software werden vollständig vom Benutzer übernommen!
